@@ -27,6 +27,7 @@
    <td>{{ $row->last_name }}</td>
    <td>
     <a href="{{ route('Cuser.show', $row->id) }}" class="btn btn-primary">Show</a>
+    <a href="{{ route('Cuser.edit', $row->id) }}" class="btn btn-warning">Edit</a>
    </td>
   </tr>
  @endforeach
